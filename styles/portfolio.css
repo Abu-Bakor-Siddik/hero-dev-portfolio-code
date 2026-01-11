@@ -14,6 +14,9 @@
 .color-orange{
     color: #FD6E0A;
 }
+.text-center{
+    text-align: center;
+}
 /* FOr All Button */
 .btn{
     background-color: #FD6E0A;
@@ -207,4 +210,44 @@ nav{
 }
 .resume-container hr{
     margin: 30px 0px;
+}
+/* footer section */
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 116px;
+    display: flex;
+}
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],input[type="email"],textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    color:#757575;
 }
